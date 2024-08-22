@@ -1,0 +1,33 @@
+{
+    "jobs": [
+        {
+            "id": "Sites at 03:00",
+            "interval": 1,
+            "unit": "days",
+            "at_time": "03:10",
+            "day_of_week": null,
+            "last_run": "2024-08-22T03:26:18",
+            "next_run": "2024-08-23T03:10:00",
+            "action_module": "jobs",
+            "action_name": "scrape_upload",
+            "args": [
+                "Sites at 03:00"
+            ],
+            "kwargs": {}
+        },
+        {
+            "id": "Sites at 06:00",
+            "interval": 1,
+            "unit": "days",
+            "at_time": "06:10",
+            "day_of_week": null,
+            "last_run": "2024-08-22T06:11:50",
+            "next_run": "2024-08-23T06:10:00",
+            "action_module": "jobs",
+            "action_name": "scrape_upload",
+            "args": [
+                "Sites at 06:00"
+            ],
+            "kwargs": {}
+        }
+}
