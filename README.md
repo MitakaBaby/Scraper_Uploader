@@ -11,3 +11,9 @@ There are few more things that you have to configure in the distribution.py, upl
 But in the end start main.py and let it sink. It will scrape, upload and repeat.
 
 Currently for myself it's configured to scrape around 800 sites at specific times and days, generate posts that have to be uploaded in my site, uploads them and many other things that are not in the module. That cuts my affiliate marketing work with many hours daily. I don't think I can manage to handle manually 110 affiliate networks.
+
+This is the standby phase of the module.
+![image](https://github.com/user-attachments/assets/324ddf4c-35ad-4485-9d14-6f6d029264d2)
+
+When scraping it can get up to 100mb of ram usage.
+You need to have strong internet connection for this to work.
