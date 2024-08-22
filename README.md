@@ -15,5 +15,7 @@ Currently for myself it's configured to scrape around 800 sites at specific time
 This is the standby phase of the module.
 ![image](https://github.com/user-attachments/assets/324ddf4c-35ad-4485-9d14-6f6d029264d2)
 
-When scraping it can get up to 100mb of ram usage.
+This is the active phase when scraping sites.
+![image](https://github.com/user-attachments/assets/b426ca25-446a-4521-8e08-6977fb757058)
+
 You need to have strong internet connection for this to work.
