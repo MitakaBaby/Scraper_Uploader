@@ -1,0 +1,191 @@
+{
+    "Site1": {
+        "site": "https://site1.com/films",
+        "element_xpaths": ["//div[@class='thumb-full-info-container']/a"],
+        "elements_attribute": "href",
+        "date_info": {
+            "home": [],
+            "inside": [
+                ".//ul[@class='meta-info']/li[5]", 
+                ".//ul[@class='meta-info']/li[3]"
+            ]
+        },
+        "date_format": "",
+        "title_info": {
+            "home": [],
+            "inside": [".//p[@class='under-title-text fw-400']"]
+        },
+        "description_xpaths": [".//p[@class='desc-text fw-700 py-3']"],
+        "tags_xpaths": ["//*[contains(@class, 'content-tags')]//a"],
+        "models_info": {
+            "home": {
+                "": []
+            },
+            "inside": ["//div[@class='performers']//h4[@class='model-name']"]
+        },
+        "video_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "src": [".//video[@class='vjs-tech']"]
+            }
+        },
+        "replace_vid_link": {
+            "replacements": [
+                {"split": "", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "image_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "style": [".//div[@class='vjs-poster']"]
+            }
+        },
+        "replace_img_link": {
+            "replacements": [
+                {"split": "", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "enter_button": ["//a[@class='btn-orange btn']"],
+        "ad_button": [],
+        "video_button": [],
+        "expand_desc_button": [],
+        "expand_tags_button": [],
+        "click_element": false,
+        "gobackvp": false,
+        "move_to_video": false,
+        "mtv_xpath": "",
+        "headless": true,
+        "scrape_method": "method_selenium"
+    },
+    "Site2": {
+        "site": "https://Site2.com/videos",
+        "element_xpaths": ["//div[@class='col-12 px-0 video-model-section']/div[@class='video-info']/a"],
+        "elements_attribute": "href",
+        "date_info": {
+            "home": [],
+            "inside": [".//div[@class='tab-pane show fade active']/div[@class='row']/div[3]/h5"]
+        },
+        "date_format": "",
+        "title_info": {
+            "home": [],
+            "inside": [".//div[@class='tab-pane show fade active']/h1"]
+        },
+        "description_xpaths": [".//div[@class='desc']"],
+        "tags_xpaths": ["//p[@class='mb-0 tags f-a f-900 px-md-5']/a"],
+        "models_info": {
+            "home": {
+                "": []
+            },
+            "inside": [
+                "//div[@class='video-model row']/div/h3/a", 
+                "//div[@class='video-model row']/div/h2/a"
+            ]
+        },
+        "video_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "href": [".//div[@class='downloads mb-3']/a"]
+            }
+        },
+        "replace_vid_link": {
+            "replacements": [
+                {"split": "?", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "image_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "content": [".//meta[@property='og:image']"]
+            }
+        },
+        "replace_img_link": {
+            "replacements": [
+                {"split": "", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "enter_button": [],
+        "ad_button": [],
+        "video_button": [],
+        "expand_desc_button": [],
+        "expand_tags_button": [],
+        "click_element": false,
+        "gobackvp": false,
+        "move_to_video": false,
+        "mtv_xpath": "",
+        "headless": true,
+        "scrape_method": "method_lxml"
+    },
+    "": {
+        "site": "",
+        "element_xpaths": [],
+        "elements_attribute": "href",
+        "date_info": {
+            "home": [],
+            "inside": []
+        },
+        "date_format": "",
+        "title_info": {
+            "home": [],
+            "inside": []
+        },
+        "description_xpaths": [],
+        "tags_xpaths": [],
+        "models_info": {
+            "home": {
+                "": []
+            },
+            "inside": []
+        },
+        "video_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "": []
+            }
+        },
+        "replace_vid_link": {
+            "replacements": [
+                {"split": "", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "image_info": {
+            "home": {
+                "": []
+            },
+            "inside": {
+                "": []
+            }
+        },
+        "replace_img_link": {
+            "replacements": [
+                {"split": "", "to_replace": "", "replacement": ""},
+                {"split": "", "to_replace": "", "replacement": ""}
+            ]
+        },
+        "enter_button": [],
+        "ad_button": [],
+        "video_button": [],
+        "expand_desc_button": [],
+        "expand_tags_button": [],
+        "click_element": false,
+        "gobackvp": false,
+        "move_to_video": false,
+        "mtv_xpath": "",
+        "headless": true,
+        "scrape_method": ""
+    }
+}
